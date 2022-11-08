@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard Customers</title>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css?_v=20221108094405">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicone.png">
+  </head>
+  <body> 
+    <div class="wrapper"> 
+      <aside class="sidebar"> 
+        <div class="sidebar__logo">
+          <div class="sidebar__logo-img"> <picture><source srcset="img/favicone.webp" type="image/webp"><img src="img/favicone.png" alt="logo"></picture></div>
+          <h1 class="sidebar__logo-text">Dashboard </h1>
+        </div>
+        <div class="wrapper_menu"> 
+          <nav class="sidebar__menu">
+            <ul class="sidebar__menu_list">
+              <li class="sidebar__menu_items"><a class="sidebar__menu_link" href="#"> 
+                  <div class="sidebar__menu_link_icon sidebar__menu_link_icon_1"></div><span class="sidebar__menu_link_text">Dashboard</span></a></li>
+              <li class="sidebar__menu_items"><a class="sidebar__menu_link" href="#"> 
+                  <div class="sidebar__menu_link_icon sidebar__menu_link_icon_2"></div><span class="sidebar__menu_link_text">Product</span>
+                  <div class="sidebar__menu_link_chevron"></div></a></li>
+              <li class="sidebar__menu_items"><a class="sidebar__menu_link sidebar__menu_link--active" href="#">
+                  <div class="sidebar__menu_link_icon sidebar__menu_link_icon_3"> </div><span class="sidebar__menu_link_text">Customers</span>
+                  <div class="sidebar__menu_link_chevron--active"></div></a></li>
+              <li class="sidebar__menu_items"><a class="sidebar__menu_link" href="#"> 
+                  <div class="sidebar__menu_link_icon sidebar__menu_link_icon_4"></div><span class="sidebar__menu_link_text">Income</span>
+                  <div class="sidebar__menu_link_chevron"></div></a></li>
+              <li class="sidebar__menu_items"><a class="sidebar__menu_link" href="#"> 
+                  <div class="sidebar__menu_link_icon sidebar__menu_link_icon_5"></div><span class="sidebar__menu_link_text">Promote</span>
+                  <div class="sidebar__menu_link_chevron"></div></a></li>
+              <li class="sidebar__menu_items"><a class="sidebar__menu_link" href="#">
+                  <div class="sidebar__menu_link_icon sidebar__menu_link_icon_6"></div><span class="sidebar__menu_link_text">Help</span>
+                  <div class="sidebar__menu_link_chevron"></div></a></li>
+            </ul>
+          </nav>
+          <div class="sidebar__user"> 
+            <div class="sidebar__user_foto_vrapper"> <picture><source srcset="img/user.webp" type="image/webp"><img src="img/user.png" alt="User foto"></picture></div>
+            <div class="sidebar__user_text">
+              <h4 class="sidebar__user_name">Evano </h4>
+              <p class="sidebar__user_job">Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="main"> 
+        <h2 class="main__header">Hello Evano &#128075;,</h2>
+        <div class="main__content">
+          <div class="main__content_header"> 
+            <div class="main__content_title"> 
+              <h4 class="main__content_title_first">All Customers</h4>
+              <p class="main__content_title_subtitle">Active Members</p>
+            </div>
+            <form class="search"><button class="search__button" type="submit"></button>
+<input class="search__input" type="text" placeholder="Search" autofocus >
+            </form>
+          </div>
+          <div class="main__content_inner"> 
+            <table class="table_customers">
+              <thead class="table_customers__head">
+                <tr class="table_customers__row"> 
+                  <th class="table_customers__cell">Customer Name</th>
+                  <th class="table_customers__cell">Company</th>
+                  <th class="table_customers__cell">Phone Number</th>
+                  <th class="table_customers__cell">Email</th>
+                  <th class="table_customers__cell">Country</th>
+                  <th class="table_customers__cell">Status </th>
+                </tr>
+              </thead>
+              <tbody class="table_customers__body"> 
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Jane Cooper</td>
+                  <td class="table_customers__cell">Microsoft</td>
+                  <td class="table_customers__cell"> <a class="table_customers__phone" href="tel:(225)555-0118">(225) 555-0118</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:jane@microsoft.com">jane@microsoft.com</a></td>
+                  <td class="table_customers__cell"> United States</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--active">Active</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Floyd Miles</td>
+                  <td class="table_customers__cell">Yahoo</td>
+                  <td class="table_customers__cell"><a class="table_customers__phone" href="tel:(205)555-0100">(205) 555-0100</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:floyd@yahoo.com">floyd@yahoo.com</a></td>
+                  <td class="table_customers__cell"> Kiribati</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--inactive">Inactive</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Ronald Richards</td>
+                  <td class="table_customers__cell">Adobe</td>
+                  <td class="table_customers__cell"><a class="table_customers__phone" href="tel:(302)555-0107">(302) 555-0107</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:ronald@adobe.com">ronald@adobe.com</a></td>
+                  <td class="table_customers__cell"> Israel</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--inactive">Inactive</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Marvin McKinney</td>
+                  <td class="table_customers__cell">Tesla</td>
+                  <td class="table_customers__cell"> <a class="table_customers__phone" href="tel:(252)555-0126">(252) 555-0126</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:marvin@tesla.com">marvin@tesla.com</a></td>
+                  <td class="table_customers__cell"> Iran</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--active">Active</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell"> Jerome Bell</td>
+                  <td class="table_customers__cell"> Google</td>
+                  <td class="table_customers__cell"><a class="table_customers__phone" href="tel:(629)555-0129">(629) 555-0129</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:jerome@google.com">jerome@google.com</a></td>
+                  <td class="table_customers__cell"> Réunion</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--active">Active</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Kathryn Murphy</td>
+                  <td class="table_customers__cell">Microsoft</td>
+                  <td class="table_customers__cell"><a class="table_customers__phone" href="tel:(406)555-0120">(406) 555-0120</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:kathryn@microsoft.com">kathryn@microsoft.com</a></td>
+                  <td class="table_customers__cell"> Curaçao</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--active">Active</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Jacob Jones</td>
+                  <td class="table_customers__cell">Yahoo</td>
+                  <td class="table_customers__cell"><a class="table_customers__phone" href="tel:(208)555-0112">(208) 555-0112</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:jacob@yahoo.com">jacob@yahoo.com</a></td>
+                  <td class="table_customers__cell"> Brazil</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--active">Active</div>
+                  </td>
+                </tr>
+                <tr class="table_customers__row"> 
+                  <td class="table_customers__cell">Kristin Watson</td>
+                  <td class="table_customers__cell">Facebook</td>
+                  <td class="table_customers__cell"><a class="table_customers__phone" href="tel:(704)555-0127">(704) 555-0127</a></td>
+                  <td class="table_customers__cell"><a class="table_customers__email" href="mailto:kristin@facebook.com">kristin@facebook.com</a></td>
+                  <td class="table_customers__cell"> Åland Islands</td>
+                  <td class="table_customers__cell">
+                    <div class="table_customers__status table_customers__status--inactive">Inactive</div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <footer class="main__content_footer footer"> 
+            <div class="footer__text">Showing data 1 to 8 of  256K entries</div>
+            <div class="footer__pagination">
+              <ul class="footer__pagination-list"> 
+                <li class="footer__pagination_item"> <a class="footer__pagination_link" href="#">&lt;</a></li>
+                <li class="footer__pagination_item footer__pagination_item--active"> <a class="footer__pagination_link" href="#"> 1</a></li>
+                <li class="footer__pagination_item"><a class="footer__pagination_link" href="#"> 2</a></li>
+                <li class="footer__pagination_item"> <a class="footer__pagination_link" href="#"> 3</a></li>
+                <li class="footer__pagination_item"> <a class="footer__pagination_link" href="#"> 4</a></li>
+                <li class="footer__pagination_item"> <a class="footer__pagination_link" href="#"> ...</a></li>
+                <li class="footer__pagination_item"> <a class="footer__pagination_link" href="#"> 40</a></li>
+                <li class="footer__pagination_item"> <a class="footer__pagination_link" href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.min.js?_v=20221108094405"></script>
+  </body>
+</html>
